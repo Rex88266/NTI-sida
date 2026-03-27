@@ -1,0 +1,8 @@
+:root {
+    --color-primary: #B1068C;
+}
+
+.gradient {
+    background: #B1068C;
+    background: linear-gradient(207deg,rgba(177, 6, 140, 1) 0%, rgba(80, 0, 130, 1) 100%);
+}
