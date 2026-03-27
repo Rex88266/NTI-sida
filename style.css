@@ -2,38 +2,41 @@
     --color-primary: #B1068C;
 }
 
+* {
+    margin: 0;
+    font-family: Verdana, sans-serif;
+    color: white;
+}
+
 .gradient {
     background: #B1068C;
     background: linear-gradient(207deg,rgba(177, 6, 140, 1) 0%, rgba(80, 0, 130, 1) 100%);
 }
 
 .navContainer{
-    width: 100vw;
-    margin-left: 0rem;
+    display: flex;
+    justify-content: space-between;
+    padding: 1rem 2rem;
 }
 
-nav{
-    margin-left: 0rem;
+.navContainer ul {
     display: flex;
     align-items: center;
-    flex-wrap: wrap;
-    flex-direction: row;
-    
+    gap: 2rem;
 }
 
-nav ul{
-    display: flex;
-    flex-direction: row;
-    align-items: center;
-    width: 100vw;
-}
 
 nav ul li{
-    list-style:none ;
+    list-style: none;
 }
 
 nav li a{
     text-decoration: none;
-    color: black;
     font-weight: bolder;
+
+
+    &:hover {
+        color: gray;
+        transition: 200ms;
+    }
 }
