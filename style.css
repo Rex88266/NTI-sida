@@ -1,0 +1,39 @@
+:root {
+    --color-primary: #B1068C;
+}
+
+.gradient {
+    background: #B1068C;
+    background: linear-gradient(207deg,rgba(177, 6, 140, 1) 0%, rgba(80, 0, 130, 1) 100%);
+}
+
+.navContainer{
+    width: 100vw;
+    margin-left: 0rem;
+}
+
+nav{
+    margin-left: 0rem;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    flex-direction: row;
+    
+}
+
+nav ul{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    width: 100vw;
+}
+
+nav ul li{
+    list-style:none ;
+}
+
+nav li a{
+    text-decoration: none;
+    color: black;
+    font-weight: bolder;
+}
